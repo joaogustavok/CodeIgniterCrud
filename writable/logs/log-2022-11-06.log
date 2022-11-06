@@ -1,0 +1,11 @@
+CRITICAL - 2022-11-06 08:06:22 --> Undefined constant "anchor"
+in APPPATH\Views\peoples.php on line 13.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('peoples', [], true)
+ 4 APPPATH\Controllers\People.php(17): view('peoples', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\People->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\People))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
